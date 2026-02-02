@@ -189,7 +189,7 @@ export default function CrushBot() {
   const [showThankYou, setShowThankYou] = useState(false);
   
   const chatEndRef = useRef(null);
-  const messagesRef = useRef([]);
+ 
 
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
